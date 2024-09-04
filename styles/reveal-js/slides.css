@@ -45,7 +45,8 @@
 
 body {
     background: url("https://hogenttin.github.io/cdn/logo/HOGENT.svg");
-    background-position: right 1% bottom 15%;
+    background-size: 10vh;
+    background-position: right 2ch bottom 3ch;
     background-repeat: no-repeat;
     font-family: var(--hogent-font-family);
     font-weight: 400;
