@@ -148,10 +148,16 @@ blockquote {
 
 img,
 video,
-iframe,
-pre code {
+iframe {
+    max-width: 100%; /* Must be % because of multicolumn, as those are sub-divs */
     max-height: 90vh;
     margin-bottom: var(--content-padding-bottom);
+}
+
+pre code {
+    /* Otherwise it overflows below the slide. */
+    /* Why 50vh? I have no clue, it just seems to work ... */
+    max-height: 50vh;
 }
 
 div.MathJax_Display {
