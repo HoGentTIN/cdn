@@ -224,6 +224,7 @@ li {
 
 .reveal .controls {
     color: var(--hogent-blue);
+    right: 5em;
 }
 
 .reveal .slide-number {
