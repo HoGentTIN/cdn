@@ -1,11 +1,4 @@
-/*
- *  https://www.hogent.be/dit-is-hogent/huisstijl/huisstijl-kleuren/
- *  https://fonts.google.com/specimen/Montserrat
- *  https://fonts.google.com/specimen/Inconsolata
- */
-
- @import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
- @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://hogenttin.github.io/cdn/styles/fonts.css");
 
 :root {
     --hogent-blue: #4ca2d5;
@@ -13,7 +6,12 @@
     --hogent-red: #ef8767;
     --hogent-white: #ffffff;
     --hogent-black: #000000;
-    --hogent-font-family: "Montserrat", "Arial", sans-serif;
+    --print-font-family: "Arial", sans-serif;
+    --hogent-font-family: "Montserrat", var(--print-font-family);
+
+    --print-code-font-family: monospace;
+    --code-font-family: "Inconsolata", var(--print-code-font-family);
+
 
     --wikipedia-a-color: #3366cc;
     --wikipedia-code-bg-color: #f8f8f8;
